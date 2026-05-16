@@ -29,10 +29,11 @@ app.use('/api/cart',cartRouter)
 app.use('/api/address',addressRouter)
 
 
-mongoose.connect("mongodb+srv://mritunjaysinghm38:Xa8eeyYetkoaP4I4@cluster0.hy6074p.mongodb.net/", {
+mongoose.connect("mongodb+srv://mritunjaysinghm38:jhbjhgcfcexe4rctf5f5@cluster0.hy6074p.mongodb.net/", {
     dbName: "mern_edb"
 }
 ).then(() => console.log("mongoDB is connected successfully..!")).catch((err) => console.log(err));
+
 
 
 
